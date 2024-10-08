@@ -7,7 +7,10 @@ package aulapoogettersetterconstrutorexerc1;
 public class Conta {
     private String titular;
     private double saldo;
-
+    
+    public Conta(){
+        
+    }
     public Conta(double saldo, double deposito, double saque,String titular ) {
         
         this.setTitular(titular);
