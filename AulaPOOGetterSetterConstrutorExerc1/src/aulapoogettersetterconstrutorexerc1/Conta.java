@@ -9,24 +9,14 @@ public class Conta {
     private double saldo;
     
     public Conta(){
-        
     }
-    public Conta(double saldo, double deposito, double saque,String titular ) {
+    public Conta(double saldo,String titular ) {
         
-        this.setTitular(titular);
-        this.setSaldo(500);
-        this.mostrarSaldo();
-        this.depositar(deposito);
-        this.sacar(saque);
-        this.mostrarSaldo();
+        this.titular = titular;
+        this.saldo =  saldo;
     }
      
     
-    public void mostrarSaldo(){
-        
-        System.out.println("Titular: " + this.getTitular());
-        System.out.println("Saldo: " + this.getSaldo());
-    }
     public void depositar(double deposito){
         
         this.saldo = this.saldo + deposito;

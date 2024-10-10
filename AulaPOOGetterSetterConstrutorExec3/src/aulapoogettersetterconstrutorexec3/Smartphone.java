@@ -52,6 +52,10 @@ public class Smartphone {
     public void setHD(int HD) {
         this.HD = HD;
     }
+    
+    public Smartphone(){
+        
+    }
 
     public Smartphone(int memoriaRam, int HD) {
         
