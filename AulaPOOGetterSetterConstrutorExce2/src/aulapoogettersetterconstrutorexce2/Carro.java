@@ -12,12 +12,11 @@ public class Carro {
     public Carro() {
     }
 
-    public Carro(String marca, String modelo, int ano, double valor) {
+    public Carro(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
-        this.chamarInformacoes();
-        this.verificarTabelaFipe(valor);
+        
     }
     
     public void chamarInformacoes(){
