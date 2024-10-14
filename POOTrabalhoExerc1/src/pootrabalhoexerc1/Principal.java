@@ -7,10 +7,11 @@ package pootrabalhoexerc1;
 public class Principal {
     public static void main(String[] args){
         
-        FigurasGeometricas figura1 = new FigurasGeometricas(4,0,0,0,0,"quadrado");
+        FigurasGeometricas figura1 = new FigurasGeometricas(4,8,0,2,3,"quadrado");
         System.out.println( "\nNome da Figura: " + figura1.getNomeFigura());
         System.out.println("Valor lado: " + figura1.getLado());
         System.out.println("Calculo da area " + figura1.calcularAreaFigura());
+        
         
         
         FigurasGeometricas figura2 = new FigurasGeometricas();
