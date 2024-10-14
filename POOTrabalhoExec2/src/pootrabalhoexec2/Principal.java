@@ -14,7 +14,7 @@ public class Principal {
         consulta1.setConvenio(false);
         consulta1.setProfissão("Motorista");
         
-        System.out.println("\n Nome do Paciente: " + consulta1.getNomePaciente());
+        System.out.println("\nNome do Paciente: " + consulta1.getNomePaciente());
         System.out.println("Data de Nascimento " +  consulta1.getDataNascimento());
         System.out.println("Convênio: " + consulta1.getConvenio());
         System.out.println("Profissão: " + consulta1.getProfissão());
@@ -27,7 +27,7 @@ public class Principal {
         consulta2.setConvenio(true);
         consulta2.setProfissão("Programador");
         
-        System.out.println("\n Nome do Paciente: " + consulta2.getNomePaciente());
+        System.out.println("\nNome do Paciente: " + consulta2.getNomePaciente());
         System.out.println("Data de Nascimento " +  consulta2.getDataNascimento());
         System.out.println("Convênio: " + consulta2.getConvenio());
         System.out.println("Profissão: " + consulta2.getProfissão());
@@ -38,7 +38,7 @@ public class Principal {
         consulta3.setConvenio(true);
         consulta3.setProfissão("Bancário");
         
-        System.out.println("\n Nome do Paciente: " + consulta3.getNomePaciente());
+        System.out.println("\nNome do Paciente: " + consulta3.getNomePaciente());
         System.out.println("Data de Nascimento " +  consulta3.getDataNascimento());
         System.out.println("Convênio: " + consulta3.getConvenio());
         System.out.println("Profissão: " + consulta3.getProfissão());
@@ -48,7 +48,7 @@ public class Principal {
         consulta4.setConvenio(true);
         consulta4.setProfissão("Policial");
         
-        System.out.println("\n Nome do Paciente: " + consulta4.getNomePaciente());
+        System.out.println("\nNome do Paciente: " + consulta4.getNomePaciente());
         System.out.println("Data de Nascimento " +  consulta4.getDataNascimento());
         System.out.println("Convênio: " + consulta4.getConvenio());
         System.out.println("Profissão: " + consulta4.getProfissão());

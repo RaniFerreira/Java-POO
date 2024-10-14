@@ -8,7 +8,7 @@ public class Principal {
     public static void main(String[] args){
         
         FigurasGeometricas figura1 = new FigurasGeometricas(4,0,0,0,0,"quadrado");
-        System.out.println( "\n"+" Nome da Figura: " + figura1.getNomeFigura());
+        System.out.println( "\nNome da Figura: " + figura1.getNomeFigura());
         System.out.println("Valor lado: " + figura1.getLado());
         System.out.println("Calculo da area " + figura1.calcularAreaFigura());
         
@@ -17,7 +17,7 @@ public class Principal {
         figura2.setNomeFigura("triangulo");
         figura2.setAltura(5);
         figura2.setBase(6);
-        System.out.println( "\n"+" Nome da Figura: " + figura2.getNomeFigura());
+        System.out.println( "\nNome da Figura: " + figura2.getNomeFigura());
         System.out.println("Base: " + figura2.getBase());
         System.out.println("Altura: " + figura2.getAltura());
         System.out.println("Calculo da area: " + figura2.calcularAreaFigura());
@@ -28,7 +28,7 @@ public class Principal {
         figura3.setAltura(0);
         figura3.setBaseMaior(11);
         figura3.setBaseMenor(10);
-        System.out.println( "\n"+" Nome da Figura: " + figura3.getNomeFigura());
+        System.out.println( "\nNome da Figura: " + figura3.getNomeFigura());
         System.out.println("Base Maior : " + figura3.getBaseMaior());
         System.out.println("Base Menor : " + figura3.getBaseMenor());
         System.out.println("Altura: " + figura3.getAltura());

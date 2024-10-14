@@ -20,7 +20,7 @@ public class Consulta {
             this.nomePaciente = nomePaciente;
             
         
-        if(dataNascimento.equals(" "))
+        if(dataNascimento.equals(""))
            this.dataNascimento = "Sem preenchimento"; 
         else
             this.dataNascimento = dataNascimento;
