@@ -25,7 +25,7 @@ public class Principal {
         joana.adicionarVendas(7);
         System.out.println("Salario com Comissão: R$ " + joana.calcularPagamentoTotal());
         joana.zerarVendas();
-         System.out.println("Salario com Comissão: R$ " + joana.calcularPagamentoTotal());
+        System.out.println("Salario com Comissão: R$ " + joana.calcularPagamentoTotal());
     }
     
 }
