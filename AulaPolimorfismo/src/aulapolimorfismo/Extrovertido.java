@@ -9,11 +9,12 @@ package aulapolimorfismo;
  * @author ranie
  */
 public class Extrovertido extends Personalidade{
-    
+
     @Override
-    public String falar(){
-      
-        return "que dia legal!";
+    public String falar() {
+        return "Que dia Maravilhoso";
     }
+    
+   
     
 }

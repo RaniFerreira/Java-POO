@@ -8,7 +8,7 @@ package aulapolimorfismo;
  *
  * @author ranie
  */
-public class Pessimista extends Personalidade{
+public class Pessimista extends PersonalidadeClasseConcreta{
     
     @Override
     public String falar(){

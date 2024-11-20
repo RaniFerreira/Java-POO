@@ -10,16 +10,19 @@ package aulapolimorfismo;
  */
 public class Principal {
     public static void main(String[] args){
-        Personalidade personalidade = new Personalidade();
+        
+        //ler livro aprenda java em tantos dias
+        
+        PersonalidadeClasseConcreta personalidade = new PersonalidadeClasseConcreta();
         Extrovertido extrovertido = new Extrovertido();
         Introvertido introvertido = new Introvertido();
         Otimista otimista = new Otimista();
         Pessimista pessimista = new Pessimista();
         ProAtivo proAtivo = new ProAtivo();
         
-        Personalidade [] variasPersonalidades = new Personalidade[6];
+        PersonalidadeClasseConcreta [] variasPersonalidades = new PersonalidadeClasseConcreta[6];
         variasPersonalidades[0] = personalidade;
-        variasPersonalidades[1] = extrovertido;
+        //variasPersonalidades[1] = extrovertido;
         variasPersonalidades[2] = introvertido;
         variasPersonalidades[3] = otimista;
         variasPersonalidades[4] = pessimista;
@@ -36,6 +39,9 @@ public class Principal {
         personalidade.acionarFalar(variasPersonalidades[3]);
         personalidade.acionarFalar(variasPersonalidades[4]);
         personalidade.acionarFalar(variasPersonalidades[5]);
+        
+        
+        Extrovertido extrovertido2 = new Extrovertido();
                 
     }
         
