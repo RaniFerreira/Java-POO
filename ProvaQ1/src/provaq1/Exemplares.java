@@ -2,7 +2,7 @@ package provaq1;
 
 /**
  *
- * @author ranie
+ * @author ranielly
  */
 public abstract class Exemplares {
     
